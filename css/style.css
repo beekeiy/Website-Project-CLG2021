@@ -1,0 +1,39 @@
+.image1{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+    body{
+      margin: 0;
+      padding: 0;
+      front-family:arial;
+    }
+    nav .logo{
+            padding: 22px 20px;
+            height: 80px;
+            float:left;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+              }
+              nav ul{
+                    list-style: none;
+                    float: right;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                  }
+              nav ul li a{
+                    line-height: 50px;
+                    color: #fff;
+                    padding: 12px 30px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    font-weight: bold;
+              }
+              nav ul li a:hover{
+                background: #5e34bf;
+                border-radius: 6px;
+                color: #000;
+              }
